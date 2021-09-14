@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="times">
+        <item>None</item>
+        <item>Time alarm</item>
+        <item>Pin to status bar</item>
+    </string-array>
+    <string-array name="types">
+        <item>None</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:id="@+id/tag_color"
+    android:background="@drawable/tag_color"
+    android:layout_marginRight="12dp"
+    android:gravity="center"
+    android:orientation="vertical">
+<!--    <ImageView-->
+<!--        android:id="@+id/active"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/icon"/>-->
+</LinearLayout>

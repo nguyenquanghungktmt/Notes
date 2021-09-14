@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_btsheet"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="70dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="14dp"
+        android:background="@color/subtext_color" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="14dp"
+        android:layout_marginLeft="24dp"
+        android:fontFamily="@font/montserrat"
+        android:text="TẠO TAG"
+        android:textColor="@color/subtext_color"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="22dp"
+        android:background="@drawable/background_title_create_tag"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_vertical"
+            android:text="Tiêu đề"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/txt_title_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edit_text_tag"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="Mặc định"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="22dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_title_create_tag"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:text="Color"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_color"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:text="#FFFFFF"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/box_color"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_color_tag" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/cancel_create_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:backgroundTint="#FFF8EC"
+            android:text="Cancel"
+            android:textColor="@color/default_color" />
+
+
+        <Button
+            android:id="@+id/save_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:backgroundTint="@color/default_color"
+            android:text="Accept"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</LinearLayout>
